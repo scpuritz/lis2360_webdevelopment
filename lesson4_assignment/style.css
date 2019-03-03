@@ -32,8 +32,6 @@ blockquote{
 
 /*table stuff*/
 table {
-    margin-left:auto; 
-    margin-right:auto;
     border-collapse: collapse;
     border: 1px solid black;
 }
@@ -50,34 +48,36 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 /* div styles */
 
 #content{
-	width: 1080px;
+	width: 80%;
 	float: left;
 }
 #sidebar{
-	width: 360px;
+	width: 20%;
 	float: left;
   	margin-top: 60px;
   	margin-bottom: 207px;
 
 }
 #container {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden; 
 }
 #sidebar img{
     margin-top: 80px;
-    margin-right: 120px;
+    margin-right: 120px; 
     float: right;
 }
 /* link styles ---------------------------- */
 a:link,
 a:visited {
 	font-weight: bold;
-	color: #87A1B2;
+	color: #0084b4;
 	text-decoration: none;
 }
  
 a:hover {
 	color: #435865;
 }
+
+

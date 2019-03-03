@@ -1,0 +1,209 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  color: #fff;
+}
+  h1 {
+    padding: 30px 0;
+	color: #fff;
+	font-size: 1.5em;
+  }
+
+  table {
+  	border: solid #6297F9 1px;
+  	border-collapse:collapse;
+  }
+  td {
+  	padding: 6px;
+  	border: solid #6297F9 1px;
+	/*background-color: #fff;*/
+	text-align: center;
+  }
+  th {
+  	font-weight: bold;
+  	background-color: #6297F9;
+  	text-align: center;
+  	padding: 6px;
+  	border: solid #6297F9 1px;
+  }
+  
+  iframe {
+  	border: solid #000 2.5px;
+  	border-radius: 5px;
+  	padding: 0px;
+  	margin-bottom: 20px;
+  }
+
+/* -------- TITLE PAGE STYLES ---------- */
+
+#title-page{ 
+width: 100%; 
+padding-top: 200px; /* provides a lot of space to view the background image */ 
+color: #fff; text-align: right; 
+} 
+
+#title-page h1 { 
+font-family: 'Abril Fatface', cursive;
+font-size: 70px; 
+text-shadow: 3px 3px #000; 
+line-height: 1.5em;
+margin: 0 80px; 
+letter-spacing: 0.3em;
+} 
+
+#title-page h3 { 
+font-size: 1em; 
+font-style: italic; 
+margin: 0 80px; 
+text-shadow: 2px 2px #000; 
+letter-spacing: 0.3em;
+} 
+
+/* --------- PAGE SECTIONS ---------- */
+
+#splash{
+	height: 800px;
+	background: url(images/andy_narell.png) no-repeat center top fixed;
+	background-size: cover;  
+}
+
+#introduction{
+	background-color: #A54256;
+	/*--height: 1330px;--*/
+}
+
+#pans{
+	background-color: #200F71;
+	/*height: 1250px;*/
+}
+
+#media{
+	background-color: #BF6A38;
+	/*height: 700px;*/
+	background: url(images/skiffle.png) no-repeat center top fixed;
+	background-size: cover;  
+}
+
+#author{
+	background-color: #A54256;
+	/*height: 1000px;*/
+}
+
+
+/* -------------- CONTAINER STYLES ------------- */
+
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES ------------- */
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.4); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 5px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 20px 80px 20px 80px; 
+	color: #802BB1;
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}  
+
+ul#menu li a.button:visited {
+	color: #802BB1;
+}  
+
+/* ----------- MISC ----------- */
+
+.fltright{
+	float:right;
+	margin: 20px;
+  	border: solid #FFE9AC 0px;
+    border-radius: 5px;
+  	margin: 5px 5px 30px 10px;
+    box-shadow: 2px 2px 5px #000;
+}
+.funktable td{
+	background-color: #fff;
+}
+
+
+/* ------------------- AUTHOR CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits h1{
+	color: #000;
+}
+#credits table{      
+  margin: 0 auto;	
+}
+#credits td{
+	/*background-color: transparent;*/
+}
+#credits p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  line-height: 2.0em;
+  color: #000;
+}
+#credits img{
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #000;
+}
+ul#credits li{
+	align: left;
+	font-color: #fff;
+}
+#credits ul{
+	list-style: none; /* eliminates bullets */
+	padding-top: 5px;
+}
+
+/* link styles ---------------------------- */
+a:link,
+a:visited {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+ 
+a:hover {
+	color: #200F71;
+}
