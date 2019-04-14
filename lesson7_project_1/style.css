@@ -1,0 +1,106 @@
+/*  COMPLETED BY SAM PURITZ, APRIL 8, 2019*/
+
+
+/*font families: font-family: 'Open Sans', sans-serif; font-family: 'Montserrat', sans-serif;*/
+
+
+/*text styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    background-color: #bccbde;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+    align: center;
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 120px;
+}
+p {
+    margin-left: 60px;
+    margin-right: 40px;
+}
+blockquote{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*table stuff*/
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    float: left;
+}
+th {
+  background-color: #DAF0FF;
+  color: black;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+
+/* link styles ---------------------------- */
+a:link,
+a:visited,
+a:active {
+	font-weight: bold;
+	color: #46587F;
+	text-decoration: none;
+}
+ 
+a:hover {
+	color: #3C7AFF;
+	
+}
+
+
+/* DIVS */
+#container {
+    margin: 0 auto;
+    width: 1200px;
+}
+header {
+    width: 100%;
+}
+content {
+    width: 840px;
+    float: left;
+}
+sidebar {
+    width: 360px;
+    float: left;
+}
+sidebar img {
+    margin: 20px;
+}
+footer {
+    width: 100%;
+    clear: both;
+}
+/* MISC */
+ iframe {
+    float: left;
+ }
+ 
+ * {
+    margin: 0 auto;
+    padding: 0;
+ }
+ 
+ #paradox {
+     clear: both;
+ }
