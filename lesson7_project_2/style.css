@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+#splash {
+    height: 1000px;
+    background: url(images/social.png) no-repeat center top fixed;
+    background-size: cover;
+}
+#title-page{
+    text-align: center;
+}
+#overview {
+    background-color: #379683;
+    padding: 40px 0 60px 0;
+  /*  height: 1000px; */
+}
+#media {
+   /* height: 720px; */
+    background: url(images/bubble.png) no-repeat center top fixed;
+    background-size: cover;
+    padding: 40px 0 60px 0;
+}
+#paradox {
+    background-color: #8EE4AF;
+    padding: 40px 0 60px 0;
+}
+#footer {
+    background-color: #EDF5E1;
+    padding: 40px 0 60px 0;
+}
+
+/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(255, 255, 255, 0.4);
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 50px 40px 50px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}  
+a:link,
+a:visited,
+a:active {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+#footer a:hover {
+    color: #8EE4AF;
+}
+
+/* ---------------- FONT STYLES font-family: 'Comfortaa', cursive; font-family: 'Permanent Marker', cursive;-----------------*/
+
+#title-page h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+    width: 40%;
+    line-height: 80px;
+    margin: auto 0;
+    display: inline-block;
+    margin-top: 100px;
+}
+#title-page h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    width: 40%;
+    line-height: 80px;
+    margin: auto 0;
+    display: block;
+    margin-top: 100px;
+}
+#navbar a {
+    font-family: 'Comfortaa', cursive;
+}
+#overview p {
+    font-family: 'Comfortaa', cursive;
+}
+#overview h2 {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+}
+#media h2 {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+    line-height: 40px;
+}
+#paradox h2 {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+    line-height: 40px;
+}
+#paradox p {
+    font-family: 'Comfortaa', cursive;
+}
+#paradox blockquote {
+    font-family: 'Comfortaa', cursive;
+}
+#footer h2 {
+    font-size: 2em;
+    font-family: 'Comfortaa', cursive;
+    line-height: 40px;
+}
+#footer li {
+    font-family: 'Comfortaa', cursive;
+}
+#footer p {
+    font-family: 'Comfortaa', cursive;
+}
+/* -----------table stuff ---------------*/
+#media table {
+    border-collapse: collapse;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#footer table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#media th {
+  background-color: #379683;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+}
+#media td {
+    background-color: #EDF5E1;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+/* ----------- MEDIA STUFF -------------- */
+#media iframe {
+    margin-top: 150px;
+    border-radius: 10px
+}
+#right {
+    text-align: right;
+    margin-top: 60px;
+}
+#footer img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
