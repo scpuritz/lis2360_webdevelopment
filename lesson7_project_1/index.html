@@ -10,6 +10,7 @@
         <meta name="author" content="Sam Puritz">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style-navbar.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
@@ -18,9 +19,15 @@
             <img src="images/header.jpg" width="100%" alt="header image"></img>
             <header> <!-- START OF HEADER -->
                 <h1>Privacy in the 21st Century</h1>
-                    <p><a href=index.html>Introduction</a> | <a href=media.html>Media</a> | <a href=author.html>Author</a></p>
+                    <div id="navbar">
+              			<ul id="menu">
+              				<li><a href="index.html" class="button selected">Overview</a></li>
+              				<li><a href="media.html" class="button">Media</a></li>
+                 			<li><a href="author.html" class="button">Author</a></li>
+              			</ul>
+          		</div> <!-- end navbar -->
             </header> <!-- END OF HEADER --> 
-            <content> <!-- START OF CONTENT -->
+            <content id = "wSidebar"> <!-- START OF CONTENT -->
                 <h2><em>Introduction</em></h2>
                     <p>In the past decade, our world has become increasingly connected through social media platforms like Facebook, Twitter, and Instagram. With the number of users online growing exponentially, Facebook alone with over a billion users, people across the globe have been sharing, commenting, and “liking” more than ever before. With this, the information, both private and public, of over two billion people on social media is placed in a precarious position. On the surface, it may seem safe, even advantageous, to share as much as possible on a social media platform. By doing so, however, one relinquishes enormous amounts of privacy and information to companies with a monetary incentive to distribute that information as well as hackers with malicious intent. 
                     </p> 
@@ -38,7 +45,6 @@
                 </strong></blockquote>
             </sidebar> <!-- END OF SIDEBAR -->
             <footer> <!-- START OF FOOTER -->
-                <hr>
                 <p>
 		            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 		            <img alt="Creative Commons License" style="border-width:0" 		src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" ></a> 

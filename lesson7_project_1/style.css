@@ -13,43 +13,55 @@ body {
     line-height: 1.6em;
     background-color: #bccbde;
 }
-h1 {
+header h1 {
     font-family: 'Montserrat', sans-serif;;
     text-align: center;
     font-size: 2em;
     padding-top: 20px;
-    align: center;
-
 }
-h2 {
+content h2 {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 120px;
+    margin: 40px;
 }
-p {
-    margin-left: 60px;
-    margin-right: 40px;
+sidebar h2 {
+    font-family: 'Montserrat', sans-serif;
 }
-blockquote{
+content p {
+    margin: 50px;
+}
+footer p {
+    margin: 50px;
+}
+sidebar blockquote{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 /*table stuff*/
-table {
+content table {
     border-collapse: collapse;
     border: 1px solid black;
     float: left;
+/*    margin: 50px; */
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
-th {
+footer table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+content th {
   background-color: #DAF0FF;
   color: black;
 }
-td {
+content td {
     text-align: center;
     padding: 10px;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+content tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 
@@ -72,11 +84,12 @@ a:hover {
 #container {
     margin: 0 auto;
     width: 1200px;
+    overflow: hidden;
 }
 header {
     width: 100%;
 }
-content {
+#wSidebar {
     width: 840px;
     float: left;
 }
@@ -92,10 +105,14 @@ footer {
     clear: both;
 }
 /* MISC */
- iframe {
+ sidebar iframe {
     float: left;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
  }
  
+
  * {
     margin: 0 auto;
     padding: 0;

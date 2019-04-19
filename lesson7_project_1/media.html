@@ -9,6 +9,7 @@
         <meta name="author" content="Sam Puritz">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style-navbar.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
@@ -17,9 +18,15 @@
             <img src="images/header.jpg" width="100%" alt="header image"></img>
             <header> <!-- START OF HEADER -->
                 <h1>Privacy in the 21st Century</h1>
-                    <p><a href=index.html>Introduction</a> | <a href=media.html>Media</a> | <a href=author.html>Author</a></p>
+                    <div id="navbar">
+              			<ul  id="menu">
+              				<li><a href="index.html" class="button">Overview</a></li>
+              				<li><a href="media.html" class="button selected">Media</a></li>
+                 			<li><a href="author.html" class="button">Author</a></li>
+              			</ul>
+          		</div> <!-- end navbar -->
             </header> <!-- END OF HEADER -->
-            <content> <!-- START OF CONTENT -->
+            <content id = "wSidebar"> <!-- START OF CONTENT -->
                 <h2><em>Top Social Media Sites in the United States</em></h2>
                         <table>
                             <tr>
@@ -53,7 +60,7 @@
                 </div> <!-- END OF PARADOX -->
             </content> <!-- END OF CONTENT -->
             <sidebar> <!-- START OF SIDEBAR -->
-                <h2><em>Privacy On Social Media</em></h2>
+                <h2 class = ><em>Privacy On Social Media</em></h2>
                     <iframe width = 90% src="https://www.youtube.com/embed/UhhYSrUHnao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </sidebar> <!-- END OF SIDEBAR -->
             <footer> <!-- START OF FOOTER -->
