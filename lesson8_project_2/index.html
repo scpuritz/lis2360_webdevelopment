@@ -1,0 +1,307 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+
+    <title>Super Smash Bros. Melee</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker" rel="stylesheet">  
+    <style type="text/css">
+      .navbar-inverse {
+        background-color: #733380;
+        border-color: #080808;
+      }
+      .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #000;
+        background-color: #FEBE3F;
+      }
+      .navbar-inverse .navbar-nav > li > a {
+        color: #FFF;
+      }
+      .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+
+        color: #FEBE3F;
+        background-color: transparent;
+      }
+      .navbar-inverse .navbar-brand {
+        color: #fff;
+      }
+      .carousel-caption h1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5em;
+      }
+      .carousel-caption p {
+        font-family: 'Comfortaa', cursive;
+        font-size: 1.5em;
+      }
+      body {
+      font-family: 'Comfortaa', cursive;
+      background-image: linear-gradient(to bottom, #fff, #C28FCC);
+      }
+      .img-responsive, .thumbnail a > img, .thumbnail > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 50px;
+      }
+      hr {
+        border-top: 1px solid #FEBE3F;
+      }
+      .btn-default:hover {
+        background-color: #FEBE3F;
+      }
+      .text-muted {
+        color: #FEBE3F;
+      }
+      a {
+        color: #5a5a5a;
+        text-decoration: none;
+      }
+      a:focus, a:hover {
+        color: #FEBE3F;
+        text-decoration: underline;
+      }
+      @media (min-width: 768px) {
+        .navbar-wrapper .navbar {
+          border-radius: 30px;
+        }
+        .navbar-wrapper {
+          margin-top: 0px;
+        }
+      }
+      .carousel-inner > .item > img {
+        height: auto;
+      }
+      @media (max-width: 899px) {
+        .carousel {
+          height: 400px;
+        }
+        .carousel .item {
+          height: 400px;
+          background-color: #fff;
+        }
+      }
+      @media (max-width: 719px) {
+        .carousel-inner > .item > img {
+          height: 400px;
+          width: 719px;
+          max-width: 719px;
+        }
+      }
+      .carousel-indicators li {
+        border: 1px solid #733380;
+      }
+      .carousel-indicators .active {
+        background-color: #FEBE3F;
+      }
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Melee</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Documentary</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Competition</a></li>
+                    <li><a href="#">Videos</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src = "images/1.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Super Smash Bros. Melee</h1>
+              <p>A brief discussion of one of the greatest video games of all time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src = "images/2.png"  alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Super Smash Bros. Melee</h1>
+              <p>A brief discussion of one of the greatest video games of all time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src = "images/3.png"  alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Super Smash Bros. Melee</h1>
+              <p>A brief discussion of one of the greatest video games of all time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src = "images/4.png"  alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Super Smash Bros. Melee</h1>
+              <p>A brief discussion of one of the greatest video games of all time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src = "images/8.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Bowser</h2>
+          <p>Bowser, or King Koopa, is the main antagonist of Nintendo's Mario franchise. He's known to have a habit of kidnapping the royalty of the Mushroom kingdom, and he often appears as the "final boss" in any Mario game. In Super Smash Bros. Melee, Bowser is regarded as a "low-tier" character, and is "a mighty foe that trades speed for pure power."</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src = "images/9.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Dr. Mario</h2>
+          <p>Dr. Mario is the main character of Nintendo's "Dr. Mario" games. He is an alter ego of Mario, using vitamins to kill off viruses. In Super Smash Bros. Melee, Dr. Mario is an unlockable character that is similar in moveset to Mario. According to Dr. Mario's trophy: "There's hardly any difference in the abilities of Mario and Dr. Mario, so choosing is largely a matter of taste</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src = "images/10.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Princess Peach</h2>
+          <p>Princess Peach, or Princess Toadstool, is the princess of the fictional Mushroom Kingdom in the Mario franchise. She is constantly under attack by Bowser, and is the love interest of Mario. In Super Smash Bros. Melee, Peach is regarded as one of the best characters in the game. Her unique aerial attacks and incredible precision makes her a top choice for any Smasher. According to the Melee instruction manual, Peach is a "princess with royal recovery abilities."</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Warning!<span class="text-muted"> Challenger aproaching!</span></h2>
+          <p class="lead">Super Smash Bros. Melee was an early game to feature an unlockable "secret" character mechanism. When certain criteria are met while playing in game, the player is shown an image like the one below. The player then must battle and defeat the challenging character to finally unlock him/her.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src = "images/5.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">All charcters created equally.<span class="text-muted"> Or are they?</span></h2>
+          <p class="lead">To newcomers, all characters in Super Smash Bros. Melee are playable and balanced. However, the thriving competitive Melee scene has deemed otherwise. Many top players create charcter "tier lists," essentially ranking characters in the game from best to worst based on their opinions and experiences with the game. Fox, due to his incredible speed and power, is regarded as the best in the game. Fox is followed by characters like Marth, the swordsman, and Jigglypuff, an emerging favorite for the new "best character in the game."</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src = "images/6.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fountain<span class="text-muted"> of Dreams</span></h2>
+          <p class="lead">Loosely based off the Fountain of Dreams in the Kirby Universe, this stage in Super Smash Bros. Melee is one of the most beloved. It is beautifully designed and is well known for having a mirror-like effect as characters walk across the water, a relatively innovative visual for an early 2000s console. Fountain of Dreams is one of the most popular stages for competitive play, due to its general balance: the moving platforms can prevent camping, and the shape of the edges of the stage prevent characters from getting stuck underneath them. Additionally, the pillar on the bottom of the stage allows characters who can wall jump to improve their recoveries, while simultaneously preventing players from stalling by traveling underneath the stage. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src = "images/7.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; Samuel Puritz &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    
+    <script src="js/holder.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
